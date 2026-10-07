@@ -1,10 +1,5 @@
 # Ürün Yönetimi API
 
-Staj sürecinde öğrendiğim konuları uygulamak için hazırladığım kişisel örnek projedir.
-Kurum projesine ait kod içermez.
-
-## İçerik
-
 - ASP.NET Core 8 Web API
 - Katmanlı mimari: Controller → Service → Repository
 - Entity Framework Core + SQL Server (migration, seed data, `Include` ile eager loading)
@@ -31,18 +26,6 @@ tests/UrunYonetimi.Tests
   UrunServiceTests
 ```
 
-## Çalıştırma
-
-1. `UrunYonetimi.sln` dosyasını Visual Studio 2022 ile açın.
-2. `appsettings.json` içindeki bağlantı cümlesini kendi SQL Server'ınıza göre düzenleyin
-   (varsayılan: LocalDB).
-3. **Tools → NuGet Package Manager → Package Manager Console** açın, Default project olarak
-   `UrunYonetimi.Api` seçin ve şunları çalıştırın:
-   ```
-   add-migration IlkKurulum
-   update-database
-   ```
-4. F5 ile çalıştırın; Swagger sayfası açılır.
 
 ## Kullanım
 
